@@ -88,7 +88,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Irakoze Ntawigenga - [@your_twitter]([(https://x.com/kelly80666560)]) - irakozekelly41@gmail.com
+Irakoze Ntawigenga - https://x.com/kelly80666560 - irakozekelly41@gmail.com
 
-Project Link: [https://github.com/yourusername/forest-monitoring-system](https://github.com/kel1y/forest-monitoring-system)
+Project Link: https://github.com/kel1y/forest-monitoring-system
 
