@@ -1,84 +1,94 @@
-Forest Monitoring System
-Overview
+# Forest Monitoring System
+
+## Overview
 
 The Forest Monitoring System is a web-based platform designed to track forest coverage and loss using remote sensing data and machine learning. This system analyzes 60 years of forest evolution using satellite images, providing insights on land use, land cover (LULC) classification, and vegetation indices.
 
-Forest Monitoring System Screenshot
-Features
+![Forest Monitoring System Screenshot](/placeholder.svg?height=300&width=600)
 
-    Satellite Data Processing: Utilizes Landsat 5 and 7 images (30m resolution) for analysis.
-    Cloud Removal: Implements noise reduction techniques for clearer imagery.
-    LULC Classification: Uses the Random Forest algorithm to classify land use and land cover.
-    Vegetation Health Monitoring: Calculates the Normalized Difference Vegetation Index (NDVI) to track vegetation health over time.
-    Interactive Map: Displays classified regions with color-coding for different land types.
-    Trend Analysis: Shows forest coverage trends over a 20-year period.
-    Deforestation Insights: Provides patterns and insights into deforestation and reforestation.
+## Features
 
-Technology Stack
+- **Satellite Data Processing**: Utilizes Landsat 5 and 7 images (30m resolution) for analysis.
+- **Cloud Removal**: Implements noise reduction techniques for clearer imagery.
+- **LULC Classification**: Uses the Random Forest algorithm to classify land use and land cover.
+- **Vegetation Health Monitoring**: Calculates the Normalized Difference Vegetation Index (NDVI) to track vegetation health over time.
+- **Interactive Map**: Displays classified regions with color-coding for different land types.
+- **Trend Analysis**: Shows forest coverage trends over a 20-year period.
+- **Deforestation Insights**: Provides patterns and insights into deforestation and reforestation.
 
-    Backend: Google Earth Engine for processing satellite data
-    Frontend: Next.js for the web-based platform
-    Machine Learning: Supervised classification using the Random Forest algorithm (75% accuracy)
-    Visualization: React-Leaflet for maps, Chart.js for graphs
+## Technology Stack
 
-Getting Started
-Prerequisites
+- **Backend**: Google Earth Engine for processing satellite data
+- **Frontend**: Next.js for the web-based platform
+- **Machine Learning**: Supervised classification using the Random Forest algorithm (75% accuracy)
+- **Visualization**: React-Leaflet for maps, Chart.js for graphs
 
-    Node.js (v14 or later)
-    npm or yarn
-    Google Earth Engine account and API key
+## Getting Started
 
-Installation
+### Prerequisites
 
-    Clone the repository:
+- Node.js (v14 or later)
+- npm or yarn
+- Google Earth Engine account and API key
 
-    git clone https://github.com/yourusername/forest-monitoring-system.git
-    cd forest-monitoring-system
+### Installation
 
-    Install dependencies:
+1. Clone the repository:
+   \`\`\`
+   git clone https://github.com/yourusername/forest-monitoring-system.git
+   cd forest-monitoring-system
+   \`\`\`
 
-    npm install
+2. Install dependencies:
+   \`\`\`
+   npm install
+   \`\`\`
 
-    Set up environment variables: Create a .env.local file in the root directory and add your Google Earth Engine API key:
+3. Set up environment variables:
+   Create a \`.env.local\` file in the root directory and add your Google Earth Engine API key:
+   \`\`\`
+   GOOGLE_EARTH_ENGINE_API_KEY=your_api_key_here
+   \`\`\`
 
-    GOOGLE_EARTH_ENGINE_API_KEY=your_api_key_here
+4. Run the development server:
+   \`\`\`
+   npm run dev
+   \`\`\`
 
-    Run the development server:
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-    npm run dev
+## Usage
 
-    Open http://localhost:3000 in your browser to see the application.
+1. **View Classified Regions**: The main map displays color-coded regions representing different land types (water bodies, forests, croplands, bare lands, built-up areas).
 
-Usage
+2. **Analyze Forest Coverage Trends**: The graph shows forest coverage changes over the past 20 years.
 
-    View Classified Regions: The main map displays color-coded regions representing different land types (water bodies, forests, croplands, bare lands, built-up areas).
+3. **Explore Deforestation Patterns**: Use the insights provided to understand patterns of deforestation and reforestation in specific areas.
 
-    Analyze Forest Coverage Trends: The graph shows forest coverage changes over the past 20 years.
-
-    Explore Deforestation Patterns: Use the insights provided to understand patterns of deforestation and reforestation in specific areas.
-
-Contributing
+## Contributing
 
 We welcome contributions to the Forest Monitoring System! Please follow these steps to contribute:
 
-    Fork the repository
-    Create a new branch (git checkout -b feature/AmazingFeature)
-    Make your changes
-    Commit your changes (git commit -m 'Add some AmazingFeature')
-    Push to the branch (git push origin feature/AmazingFeature)
-    Open a Pull Request
+1. Fork the repository
+2. Create a new branch (\`git checkout -b feature/AmazingFeature\`)
+3. Make your changes
+4. Commit your changes (\`git commit -m 'Add some AmazingFeature'\`)
+5. Push to the branch (\`git push origin feature/AmazingFeature\`)
+6. Open a Pull Request
 
-License
+## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgments
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-    Landsat program for providing satellite imagery
-    Google Earth Engine for satellite data processing capabilities
-    OpenStreetMap for base map tiles
+## Acknowledgments
 
-Contact
+- Landsat program for providing satellite imagery
+- Google Earth Engine for satellite data processing capabilities
+- OpenStreetMap for base map tiles
 
-Irakoze Kelly- irakozekelly41@gmail.com
+## Contact
 
-Project Link: https://github.com/kel1y/forest-monitoring-system
+Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+
+Project Link: [https://github.com/yourusername/forest-monitoring-system](https://github.com/yourusername/forest-monitoring-system)
+
