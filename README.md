@@ -88,7 +88,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+Your Name - [@your_twitter]([https://twitter.com/your_twitter](https://x.com/kelly80666560)) - irakozekelly41@gmail.com
 
-Project Link: [https://github.com/yourusername/forest-monitoring-system](https://github.com/yourusername/forest-monitoring-system)
+Project Link: [https://github.com/yourusername/forest-monitoring-system](https://github.com/kel1y/forest-monitoring-system)
 
