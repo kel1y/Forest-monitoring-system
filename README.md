@@ -35,7 +35,7 @@ The Forest Monitoring System is a web-based platform designed to track forest co
 
 1. Clone the repository:
    \`\`\`
-   git clone https://github.com/yourusername/forest-monitoring-system.git
+   git clone https://github.com/kel1y/forest-monitoring-system.git
    cd forest-monitoring-system
    \`\`\`
 
